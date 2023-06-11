@@ -1,11 +1,5 @@
 require 'lib.moonloader'
 
-local success, encoding = pcall(require, "encoding")
-if not success then
-    print("Failed to load encoding library")
-end
-encoding.default = "CP1251"
-
 script_name("zzz")
 script_version("0.01")
 
